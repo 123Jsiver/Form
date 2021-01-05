@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png"
+    href="img/File Thingy.png"/>
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: rgb(238, 231, 231);
+        color: black;
+        align-content: center
+}
+
+input[type="text"] {
+border:none; 
+border-bottom:2px solid grey;
+}
+
+input[type="password"] {
+border:none; 
+border-bottom:2px solid grey;
+}
+
+input[type="select"] {
+border:none; 
+border-bottom:2px solid grey;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+}
+    </style>
+  </head>
+  <body>
+   
+<form>
+  <h1>Confirm order and pay</h1>
+  <h3>Please make the payment, after that you can enjoy all the features and bemefits</h3>
+    <table>
+      <tr>
+        <td>
+          <table style="background-color: white">
+            <tr>
+              <td>
+                <h5>Payment Details</h5>
+              </td>
+            </tr>
+            <tr>
+              <td>
+            <input type="text" class="text-line" placeholder="Name on Card"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="ccFormatMonitor" placeholder="Card Number">
+              </td>
+              <td>
+                <input type="text" placeholder="MM / YY" maxlength='5'>
+              </td>
+                <td>
+                <input type="password" placeholder="CVV" maxlength="3" size="3">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h5>Billing Address</h5>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="text" placeholder="Street address">
+              </td>
+              <td>
+                  <input type="text" placeholder="City">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" placeholder="State/Province">
+              </td>
+              <td>
+                  <input type="text" placeholder="Zip Code" maxlength="10">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="reset" value="Previous Step" style="
+                  font-family: 'Roboto', sans-serif;
+                  color: white;
+                  background-color: rgb(70, 6, 70);
+                  height:30px;
+                  width:100px;
+                  border:none;
+                  border-radius: 30px;">
+              </td>
+              <td>
+                  <input  type="submit" value="Pay $840" style="
+                  font-family: 'Roboto', sans-serif;
+                  color: white;
+                  background-color: rgb(70, 6, 70);
+                  height:30px;
+                  width:90px;
+                  border:none;
+                  border-radius: 30px;"">
+              </td>
+            </tr>
+
+          </table>
+    
+        <td>
+          <table style="background-color: rgb(38, 4, 78); width: 300px;">
+            <tr>
+              <td>
+                <h5 style="color: white">You Have To Pay</h5>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h2 style="color: orange">$840.12</h2>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6 style="color: white">Enjoy all features and perks after you complete the payment</h6>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  <h6 style="color: orange">Know all features</h6>
+                </td>
+              </tr>
+              <tr>
+                  <td>
+                    <table style="background-color: rgb(55, 8, 75)">
+                        <tr>
+                            <td>
+                              <h5 style="color: white">100% guaranteed support and updates for the next 5 years.</h5>
+                            </td>
+                          </tr>
+                        </table>
+                  </td>
+                </tr>
+          </table>
+        </td>
+      </tr>
+  </body>
+</html>
